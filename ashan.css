@@ -1,0 +1,73 @@
+body  {
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul#H2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+    overflow: hidden;
+    background-color: #333;
+	border-bottom-right-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	border-top-left-radius: 0.5em;
+	
+}
+
+li#H1 {
+    float: left;
+}
+
+li a#H {
+    display: inline-block;
+	font-size:13px;
+	font:serif;
+	font-weight:bold;
+    color: WHITE;
+    text-align: center;
+    padding: 7px 7px;
+    text-decoration: none;
+	border-right:1.5px groove;
+
+}
+
+li a:hover:not(.active) {
+    background-color: BLACK;
+}
+
+.active {
+	color:#FFF;
+	font-size:13px;
+	font:serif;
+    background-color:green ;
+	border-right:0px ;
+}
+#contactNum{
+	font-size:13px;
+	font:serif;
+	font-weight:bold;
+    color: #009;
+    text-align: center;
+    padding: 6px 6px;
+    text-decoration: none;
+	
+	
+	}
+	li.gamelistheding{
+	background-color:lightblue;
+	
+	}
+	ol.gamelist{
+		
+    list-style-type: none;
+		}
+
+
+div .gamelistheding{
+	width:400px;
+	height:20px;
+	background-color:lightblue;
+}
+

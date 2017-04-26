@@ -1,0 +1,155 @@
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}	
+body  {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+ul#H2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+    overflow: hidden;
+    background-color: #333;
+	border-bottom-right-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	border-top-left-radius: 0.5em;
+	
+}
+
+li#H1 {
+    float: left;
+}
+
+li a#H {
+    display: inline-block;
+	font-size:13px;
+	font:serif;
+	font-weight:bold;
+    color: WHITE;
+    text-align: center;
+    padding: 7px 7px;
+    text-decoration: none;
+	border-right:1.5px groove;
+
+}
+
+li a:hover:not(.active) {
+    background-color: BLACK;
+}
+ .mainbox{
+    width:890px;
+    height:1700px;
+    margin-left:245px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+      float: left;  
+
+}
+.active {
+	color:#FFF;
+	font-size:13px;
+	font:serif;
+    background-color:green ;
+	border-right:0px ;
+}
+#contactNum{
+	font-size:13px;
+	font:serif;
+	font-weight:bold;
+    color: #009;
+    text-align: center;
+    padding: 6px 6px;
+    text-decoration: none;
+	
+	
+	}
+.shopitem{
+    width: 890px;
+    height:112px;
+    text-align: left;
+}
+
+div.shopcontent{
+    width: 690px;
+    height:112px;
+
+}
+div.shopcontent p{
+    opacity: 1.0;
+}
+div .shopimg{
+    opacity: 1.0;
+}
+
+div.shopitem{
+   list-style-type: none;
+    margin: 0;
+    padding: 1;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom-right-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 0em;
+    border-top-left-radius: 0em;    
+    opacity: 0.9;
+    border-top: thick double;
+    border-color: whote;
+}
+div.shopitem:hover:not(.active) {
+    background-color: BLACK;
+}
+div .buyvid{
+    width:667.5px;
+    height:100px;
+    float: left;  
+}
+div .orderbutton{
+    width:30px;
+    height: 30px;
+}
+table .cartTable{
+    width:890px;
+}
+tr .carttr{
+	 background-color: #333;
+}
+}
+.datahedding{
+    text-align: center;
+    font: italic;
+    color: ff0000;
+}
+.detailitem{
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom-right-radius: 0em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 0em;
+    border-top-left-radius: 0em;    
+    opacity: 0.9;
+    border-top: thick double;
+    border-color: whote;
+    width: 890px;
+    height:112px;
+    text-align: left;
+}
+div.detailcontent p{
+    opacity: 1.0;
+
+}
+div .detailimg{
+    opacity: 1.0;
+}
+div.detailitem:hover:not(.active) {
+    background-color: BLACK;
+}
